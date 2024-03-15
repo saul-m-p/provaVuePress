@@ -49,6 +49,20 @@ module.exports = {
         text: 'Info',
         link: '/info/'
       },
+      // {
+      //   text: 'Info',
+      //   items: [
+      //     { text: 'all info', link: '/info/' },
+      //     {
+      //       text: 'By Topic',
+      //       items: [
+      //         { text: 'location', link: '/info/more-info/locatio.md' },
+      //         { text: 'xd ', link: '\info\README.md' },
+      //         { text: 'specification', link: '/info/more-info/specification.md' },
+      //       ],
+      //     },
+      //   ],
+      // },
       {
         text: 'Serviços',
         link: '/servicos/'
@@ -76,6 +90,17 @@ module.exports = {
           children: [
             '',   
             'using-vue'
+          ]
+        }
+      ],
+      '/info/': [
+        {
+          title: 'Info',
+          collapsable: false,
+          children: [
+            '',
+            'locatio',
+            'specification' 
           ]
         }
       ],

@@ -16,14 +16,10 @@ Se a opção não estiver selecionada o menu IVR não será executado.
 
 2) Na opção **Números de Acesso** pode ser definida a numeração de contacto com o Menu IVR, onde podem ser escolhidos vários números de entrada, sejam curtos ou longos (DDI). Apenas podem ser escolhidos números que pertençam à numeração livre do cliente.
 
-Apenas deve ser configurado um número externo como destino das opções do Menu IVR se existir pelo menos um número longo como número de acesso, caso contrário a chamada não se realiza.
-
-Caso o serviço Acessos Convergentes esteja alocado ao Cliente, uma chamada para Menu IVR tendo como destino um número externo móvel, é realizada num contexto de chamada móvel-móvel caso:
-
 - exista numeração móvel configurada nos Números de Acesso do Menu IVR, ou
 - número geral do Cliente para destinos móveis se encontre configurado
 
-## prova
+## Perfil
 
 1) A opção **Perfil de Números Internacionais** permite definir qual o Perfil de Números Internacionais que deve ser aplicado nas chamadas cujo destino coincida com as regras configuradas no perfil. Apenas disponivel se o cliente tiver o serviço "Números Internacionais" alocado.
 Se o Menu IVR for configurado com a opção "Menu", na secção Configurações para Menu é possível definir diferentes regras de aplicação (Incondicional, Fora de Horário ou Horário).
